@@ -1,0 +1,23 @@
+<div class="jumbotron text-center">
+  <h1>MEAN stack app</h1>
+  <p class="lead">Welcome to to the MEAN stack app</p>
+  <div>
+    <a *ngIf="!authService.loggedIn()" class="btn btn-primary" [routerLink]="['/register']">Register</a>
+    <a *ngIf="!authService.loggedIn()" class="btn btn-default" [routerLink]="['/login']">Login</a> 
+  </div> 
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <h3>Lorem ipsum</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia orci ut lorem vehicula, non aliquet ex fringilla.</p>
+  </div>
+  <div class="col-md-4">
+    <h3>dolor sit amet</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia orci ut lorem vehicula, non aliquet ex fringilla.</p>
+  </div>
+  <div class="col-md-4">
+    <h3>consectetur</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia orci ut lorem vehicula, non aliquet ex fringilla.</p>
+  </div>
+</div>
